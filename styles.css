@@ -1,0 +1,91 @@
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("images/bg-intro-desktop.png");
+}
+h1{
+  color: white;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+h6{
+  color: white;
+}
+.h6btn{
+  margin-top: 0.3rem;
+  font-size: 13px;
+}
+
+#Main.container-fluid{
+  padding: 7% 10% 0;
+}
+.lftSide{
+  padding-top: 13%;
+}
+.btn1{
+  height: 50px;
+  border-radius: 8px;
+  padding: 2%;
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+}
+.btn2{
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 3%;
+  color: white;
+  background-color:  hsl(154, 59%, 51%);
+}
+b.ter{
+  font-size: 9px;
+  color: hsl(0, 100%, 74%);
+}
+h6.ter{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 9px;
+  color: hsl(246, 25%, 77%);
+}
+#form.container-fluid{
+  padding: 3% 7%;
+}
+form{
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+input[type=text], input[type=password], input[type=email]{
+  color:hsl(249, 10%, 26%);
+  font-weight:600;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px 0 10px 30px;
+  border-style: solid;
+  border-color: rgb(235,235,235);
+  border-radius: 6px;
+}
+@media (max-width: 540px) {
+  h1{
+    text-align: center;
+  }
+  .hsmall{
+    margin: 20px auto 55px;
+    width: 80%;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .btn1{
+    border-radius: 10px;
+    height: 75px;
+  }
+  h6.ter{
+    margin: 0 auto;
+    width: 60%;
+  }
+  .btn2{
+    height: 50px;
+  }
+}
